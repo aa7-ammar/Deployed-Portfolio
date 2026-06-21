@@ -39,22 +39,6 @@ npm run start
 
 **Almost everything lives in one file:** [`src/lib/data.ts`](./src/lib/data.ts).
 
-Open it and edit the objects — profile, stats, socials, experiences, projects, stack, education, recommendations. The UI updates automatically. Search the file for **`TODO`** to jump to every gap that needs your input.
-
-### ✅ Gaps to fill in (checklist)
-
-These are the things I couldn't pull from your resume — they're marked `// TODO` in `src/lib/data.ts`:
-
-- [ ] **Social URLs** — `socials[]`: real GitHub, LinkedIn, and LeetCode links (placeholders right now).
-- [ ] **Resume PDF** — drop your file in `public/` (e.g. `public/resume.pdf`) so the **Download Resume** button works. Update `profile.resumeUrl` if you name it differently.
-- [ ] **Project links** — `projects[].github` and `projects[].live`: GitHub repos and live demo URLs (your resume only had `[Link]` placeholders).
-- [ ] **Project screenshots** *(optional)* — add images to `public/projects/` and set `projects[].image` to e.g. `"/projects/devdesk.png"` to show preview thumbnails.
-- [ ] **Headshot** *(optional)* — set `profile.avatar` to an image path in `public/`.
-- [ ] **Stats** — `stats[]`: tune the headline numbers/labels however you like.
-- [ ] **Recommendations** *(optional)* — `recommendations[]` is empty, so that section is hidden. Add entries (see the example in the file) and it appears automatically.
-- [ ] **Domain** — in `src/app/layout.tsx`, update `metadataBase` to your real deployed URL once live.
-- [ ] **OG image** *(optional)* — add `public/og.png` for richer link previews.
-
 ### Where things live
 
 | You want to change... | Edit |
@@ -100,22 +84,6 @@ src/
 
 ---
 
-## ▲ Deploying to Vercel
-
-1. Push this folder to a GitHub repository.
-2. Go to [vercel.com/new](https://vercel.com/new) and **import** the repo.
-3. Vercel auto-detects Next.js — no config needed. Click **Deploy**.
-4. After it's live, update `metadataBase` in `src/app/layout.tsx` to your domain and redeploy.
-
-> Don't forget to add your `resume.pdf` to `public/` and commit it, otherwise the Download Resume button will 404.
-
-Build settings (auto-filled by Vercel):
-- **Framework preset:** Next.js
-- **Build command:** `next build`
-- **Output:** `.next`
-
----
-
 ## 🧰 Tech stack
 
 - [Next.js 14](https://nextjs.org/) (App Router)
@@ -125,6 +93,3 @@ Build settings (auto-filled by Vercel):
 - [next-themes](https://github.com/pacocoursey/next-themes) — theme toggle
 - [lucide-react](https://lucide.dev/) — icons
 
----
-
-Built as a starting point — make it yours. 🧡
