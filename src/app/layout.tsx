@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   // TODO: replace with your real deployed domain once live on Vercel.
-  metadataBase: new URL("deployed-portfolio-pi.vercel.app"),
+  metadataBase: new URL("https://deployed-portfolio-pi.vercel.app/"),
   title: `${profile.name} — ${profile.role}`,
   description: `${profile.name} is a full-stack software engineer based in ${profile.location}, building dynamic web platforms, performant APIs, and clean UI.`,
   keywords: [
