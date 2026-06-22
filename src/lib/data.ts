@@ -168,7 +168,7 @@ export const projects: Project[] = [
 export const stack: { group: string; items: string[] }[] = [
   {
     group: "Languages",
-    items: ["C++", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3"],
+    items: ["C++", "JavaScript (ES6+)", "Python", "SQL", "HTML5", "CSS3"],
   },
   {
     group: "Frontend",
@@ -176,7 +176,7 @@ export const stack: { group: string; items: string[] }[] = [
   },
   {
     group: "Backend & Databases",
-    items: ["Node.js", "Express.js", "Nest.js", "REST APIs", "MongoDB", "PostgreSQL"],
+    items: ["Node.js", "Express.js", "Nest.js", "REST APIs", "MongoDB", "PostgreSQL", "MySQL", "MsSQL"],
   },
   {
     group: "Tools & Platforms",
@@ -189,6 +189,7 @@ export const stackMarquee: string[] = [
   "C++",
   "JavaScript",
   "TypeScript",
+  "Python",
   "React.js",
   "Next.js",
   "Node.js",
@@ -196,6 +197,8 @@ export const stackMarquee: string[] = [
   "Nest.js",
   "MongoDB",
   "PostgreSQL",
+  "MySQL",
+  "MsSQL",
   "Tailwind CSS",
   "Docker",
   "Git",
@@ -216,8 +219,8 @@ export const education: Education[] = [
   {
     degree: "B.Tech, Computer Science & Engineering",
     school: "Guru Gobind Singh Indraprastha University, New Delhi",
-    period: "Expected 2026",
-    score: "8.7 CGPA",
+    period: "2022 — 2026",
+    score: "8.2 CGPA",
   },
   {
     degree: "Senior Secondary School Certificate",
@@ -242,11 +245,11 @@ export type Recommendation = {
 };
 
 export const recommendations: Recommendation[] = [
-  {
-    quote: "Ammar shipped fast and wrote clean, well-tested code...",
-    name: "Jane Doe",
-    title: "Engineering Manager",
-    company: "MetaCyrus.tech",
-    avatar: null, // optional path to an image in /public
-  }
+  // {
+  //   quote: "Ammar shipped fast and wrote clean, well-tested code...",
+  //   name: "Jane Doe",
+  //   title: "Engineering Manager",
+  //   company: "MetaCyrus.tech",
+  //   avatar: null, // optional path to an image in /public
+  // }
 ];

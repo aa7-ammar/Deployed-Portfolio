@@ -78,7 +78,7 @@ src/
 │  ├─ section-heading.tsx
 │  └─ reveal.tsx
 └─ lib/
-   ├─ data.ts          # 👈 single source of truth — edit this
+   ├─ data.ts         
    └─ utils.ts
 ```
 
