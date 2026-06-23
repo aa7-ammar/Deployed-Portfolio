@@ -146,19 +146,19 @@ export const projects: Project[] = [
     image: "/devdesk.png",
   },
   {
-    name: "Dev-Event",
-    period: "2025",
+    name: "DSA — Mentor ",
+    period: "2026",
     description:
-      "A fully responsive event-listing platform showcasing production-ready frontend architecture.",
+      "An AI coach for data-structures-and-algorithms practice.",
     points: [
-      "Built with Next.js 16 demonstrating advanced component architecture, TypeScript adoption, and optimized routing.",
-      "Efficient state/data management with a tuned style pipeline (ESLint + PostCSS) for smooth browsing and filtering across devices.",
+      "Built with Next.js demonstrating advanced component architecture, TypeScript adoption, and optimized routing.",
+      "The app scores your **mastery** per topic, surfaces your weak areas with a weakness score (think credit-score-for-your-DSA-gaps)",
       "Deployed on Vercel with performance best practices — automatic font loading and code-splitting.",
     ],
-    tags: ["Next.js 16", "Node.js", "MongoDB", "Aceternity UI", "Vercel"],
-    github: "https://github.com/aa7-ammar/dev-events-nextjs16",
-    live: null,
-    image: "/devevent.png",
+    tags: ["Next.js ", "Node.js", "MongoDB", "Framer", "Vercel"],
+    github: "https://github.com/aa7-ammar/dsa-mentor",
+    live: "https://dsa-mentor-ecru.vercel.app/",
+    image: "/dsa-mentor.png",
   },
 ];
 

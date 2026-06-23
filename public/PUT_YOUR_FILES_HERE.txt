@@ -1,9 +1,0 @@
-Drop static assets here:
-
-  resume.pdf            -> referenced by the "Download Resume" button
-                           (profile.resumeUrl in src/lib/data.ts)
-  og.png                -> optional social-share preview image
-  projects/<name>.png   -> optional project preview screenshots
-                           (set projects[].image in src/lib/data.ts)
-
-Then delete this note file.
